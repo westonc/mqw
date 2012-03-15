@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Responsive Document is... Responsive</title>
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="description" content="This is a responsive document"/>
+	<link rel="stylesheet" media="screen" type="text/css" href="base.css"/>
+	<link rel="stylesheet" media="only screen and (min-width: 480px)" type="text/css" href="480.css" id="css480"/>
+	<link rel="stylesheet" media="only screen and (min-width: 640px)" type="text/css" href="640.css" id="css640"/>
+	<!--[if lt IE 9]>
+	<script type="text/javascript">
+	function mqw(ids){for(var d=document,l,m,c,i=0;i<ids.length;i++){if( (l=d.getElementById(ids[i]))&&(m=l.getAttribute('media'))){if(!l.m)l.m=m;l.setAttribute('media',(c=l.m.match(/min-width:\s*(\d+)/))&&c[1]<(d.documentElement.clientWidth||(d.body&&d.body.offsetWidth)||this.innerWidth)?'screen':l.m);}} }
+	window.onresize = function () { mqw(['css480','css640']); } 
+	mqw(['css480','css640']);
+	</script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="header">
+	<h1 id="sitetitle">Responsive Doc is... Responsive</h1>
+</div> <!-- /#header -->
+
+<div id="thorax">
+
+	<div id="nav"><ul>
+		<li class="first"><a href="one.html">One</a></li>
+		<li><a href="two.html">Two</a></li>
+		<li class="last"><a href="three.html">Three</a></li>
+	</ul></div>
+
+	<div id="content">
+		<p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="last">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+	</div> <!-- /#content -->
+
+</div> <!-- /#thorax -->
+
+<div id="footer">
+&copy; Copyright 2038 All rights reserved.
+</div><!-- /#footer -->
+
+</body>
+</html>

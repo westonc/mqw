@@ -1,0 +1,49 @@
+#header {
+	max-width: none;
+	width: 100%;	
+	border-bottom: 2em solid #09f;
+}
+
+#sitetitle {
+	font-size: 1.5em;
+}
+
+#sitetitle, #thorax, #footer {
+	position: relative;
+	margin: 5px 15%;
+	width: auto;
+	overflow: hidden;
+}
+
+#thorax {
+	zoom: 1;
+}
+
+#nav {
+	width: 30%;
+	float: right;
+	position: relative;
+	padding: 0;
+	zoom: 1;
+}
+
+#nav ul {
+	padding: 5px;
+	position: relative;
+}
+
+#nav li {
+	display: block;
+	margin: 0 0 5px 0;
+}
+
+#content {
+	max-width: none;
+	width: 67%;
+	float: left;
+}
+
+#footer {
+	margin-top: 1.5em;
+}
+

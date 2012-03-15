@@ -1,0 +1,25 @@
+#sitetitle {
+	font-size: 1.2em;
+}
+
+#header, #footer, #content, #nav ul {
+	max-width: 480px;
+}
+
+#header, #footer, #content, #nav ul {
+	*width: 480px;
+}
+
+#header, #footer, #content, #nav {
+	margin: 5px auto;
+}
+
+#nav {
+	max-width: 100%;
+	width: 100%;
+}
+
+#nav ul {
+	text-align: left;	
+	margin: 0 auto;
+}

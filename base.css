@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	/* content-box sizing was a horrible idea from the start */
+}
+
+html { 
+	font-size: 100%; 
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: #06c;
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+#header, #thorax, #nav, #content, #footer {
+	text-align: left;
+	overflow: hidden;
+}
+
+#header, #nav, #content, #footer {
+}
+
+#header {
+	padding: 5px;
+	margin: 0;
+}
+
+#sitetitle {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 1.1em;
+}
+
+#nav {
+	background-color: #09f;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 4px 5px;
+	list-style-type: none;	
+}
+
+#nav li {
+	margin: 1px 3px 1px 0;
+	padding: 1px 1em;
+	display: inline-block;
+	*display: inline;
+	background-color: orange;
+	border: 3px solid #f29d00;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+#nav li a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	margin: 5px;
+	background-color: white;	
+	padding: .33em;
+	color: #003;
+	line-height: 133%;
+}
+
+#content p.first { margin-top: 0; }
+#content p.last { margin-bottom: 0; }
+
+#footer {
+	font-size: small;
+	font-family: verdana, helvetica, sans-serif;
+	text-align: center;
+}
